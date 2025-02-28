@@ -1,0 +1,16 @@
+.title {
+  color: blueviolet;
+  position: relative;
+  padding: 0 10px;
+  margin: 1rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    bottom: 0;
+    background-color: brown;
+  }
+}

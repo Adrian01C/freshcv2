@@ -1,0 +1,185 @@
+.blue {
+  color: #0078FF;
+}
+
+.teal-blue {
+  color: #00CAFF;
+}
+
+.green {
+  color: #00DE51;
+}
+
+.orange {
+  color: #FF8F00;
+}
+
+.purple {
+  color: #5A51DE;
+}
+
+.pink {
+  color: #FF004F;
+}
+
+.red {
+  color: #E3111A;
+}
+
+.bronze {
+  color: #C67C3B;
+}
+
+.yellow {
+  color: #FFCB00;
+}
+
+.orchid {
+  color: #B959FF;
+}
+
+.raisin-black {
+  color: #212734;
+}
+
+.charcoal {
+  color: #31394C;
+}
+
+.paynes-gray {
+  color: #3D465E;
+}
+
+.grey-blue {
+  color: #47536C;
+}
+
+.black {
+  color: #000000;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+/* Alte stiluri */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F7F7F7;
+  color: #212734;
+}
+
+header, footer {
+  background-color: #0078FF;
+  color: #FFFFFF;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: white;
+}
+
+.button-large {
+  font-size: 36px;
+  background-color: #FF8F00;
+  padding: 10px 20px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.button-large:hover {
+  background-color: #E3111A;
+}
+
+/* Stiluri de bază pentru întreaga pagină */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Stiluri pentru header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* Stiluri pentru secțiuni */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2, section h3 {
+  margin-top: 0;
+}
+
+/* Stiluri pentru logo-uri */
+.connect-logo {
+  width: 300px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Stiluri pentru link-uri */
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Stiluri pentru iconițe de social media */
+.social-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-size: cover;
+  transition: filter 0.3s;
+}
+
+.social-icons-list {
+  list-style: none;
+  padding
+
+  #skills {
+    position: relative;
+  }
+  
+  .skills-photo {
+    position: absolute;
+    right: 40;
+    top: 10;
+    max-width: 400px; /* Ajustează dimensiunea după preferințe */
+  }
+  

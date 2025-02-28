@@ -1,0 +1,108 @@
+doctype html
+html(lang="en")
+  head
+  doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Virgil Ciociu - CV
+    link(rel="stylesheet" href="styles.css")
+    <link rel="stylesheet" href="css/style.css">
+    script(src="https://code.jquery.com/jquery-3.6.0.min.js")
+  body
+    header
+      h1.blue Virgil A Ciociu
+      h2.teal-blue IT Desk Support Specialist
+    section
+      h3 About Me
+      p As a dedicated and detail-oriented IT Desk Support Specialist, I am seeking a part-time position where I can leverage my technical skills and passion for problem-solving to provide exceptional support to end-users. With hands-on experience in troubleshooting hardware and software issues, configuring computer systems, and providing excellent customer service, I am committed to resolving technical issues efficiently and effectively. My strong communication skills, ability to work in a team, and a valid SIA CCTV licence make me a valuable asset to any organization.
+      button.button.button-default Download my CV
+    section
+      h3 Let's Connect
+      // Adaugă link-uri de conectare sau formular
+    section
+      h3 Skills
+      ul
+        li.blue HTML5
+        li.teal-blue JavaScript
+        li.green CSS3
+        li.orange Git
+        li.purple React
+        li.pink NodeJS
+        li.red FireBase
+        li.bronze CLI
+        li.yellow Bash
+        li.orchid Word
+        li.raisin-black Jira
+        li.charcoal Excel
+        li.paynes-gray Agile
+        li.grey-blue XD
+    script.
+      // Detectare locație utilizator și schimbare limbă
+      $(document).ready(function() {
+        $.get("https://ipinfo.io?token=aa50182e68a470", function(response) {
+          var country = response.country;
+          console.log("Țara utilizatorului: " + country);
+
+          // Schimbă limba în funcție de țară
+          if (country === "RO") {
+            changeLanguageTo("ro");
+          } else if (country === "FR") {
+            changeLanguageTo("fr");
+          } else {
+            changeLanguageTo("en");
+          }
+        }, "jsonp");
+
+        function changeLanguageTo(language) {
+          if (language === "ro") {
+            $("body").html($("body").html().replace("As a dedicated and detail-oriented IT Desk Support Specialist, I am seeking a part-time position where I can leverage my technical skills and passion for problem-solving to provide exceptional support to end-users. With hands-on experience in troubleshooting hardware and software issues, configuring computer systems, and providing excellent customer service, I am committed to resolving technical issues efficiently and effectively. My strong communication skills, ability to work in a team, and a valid SIA CCTV licence make me a valuable asset to any organization", "Lorem Ipsum este un simplu text de umplutură"));
+            $("body").html($("body").html().replace("About Me", "Despre Mine"));
+            $("body").html($("body").html().replace("Download my CV", "Descarcă CV-ul meu"));
+            $("body").html($("body").html().replace("Let's Connect", "Să ne conectăm"));
+            $("body").html($("body").html().replace("Skills", "Competențe"));
+          } else if (language === "fr") {
+            $("body").html($("body").html().replace("Lorem Ipsum is simply dummy text", "Lorem Ipsum est simplement un texte factice"));
+            $("body").html($("body").html().replace("About Me", "À propos de moi"));
+            $("body").html($("body").html().replace("Download my CV", "Téléchargez mon CV"));
+            $("body").html($("body").html().replace("Let's Connect", "Connectons-nous"));
+            $("body").html($("body").html().replace("Skills", "Compétences"));
+          } else {
+            // Implicit limba engleză
+          }
+        }
+      });
+
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Marian Zburlea - CV
+    link(rel="stylesheet" href="styles.css")
+  body
+    header
+      h1.blue Virgil A Ciociu 
+      h2.teal-blue IT Desk Support Specialist
+    section
+      h3 About Me
+      p As a dedicated and detail-oriented IT Desk Support Specialist, I am seeking a part-time position where I can leverage my technical skills and passion for problem-solving to provide exceptional support to end-users. With hands-on experience in troubleshooting hardware and software issues, configuring computer systems, and providing excellent customer service, I am committed to resolving technical issues efficiently and effectively. My strong communication skills, ability to work in a team, and a valid SIA CCTV licence make me a valuable asset to any organization
+      button.button.button-default Download my CV
+    section
+      h3 Let's Connect
+      // https://profile.indeed.com/?hl=en_GB&co=GB&from=gnav-jobseeker-profile--profile-one-frontend
+    section
+      h3 Skills
+      ul
+        li.blue HTML5
+        li.teal-blue JavaScript
+        li.green CSS3
+        li.orange Git
+        li.purple React
+        li.pink NodeJS
+        li.red FireBase
+        li.bronze CLI
+        li.yellow Bash
+        li.orchid Word
+        li.raisin-black Jira
+        li.charcoal Excel
+        li.paynes-gray Agile
+        li.grey-blue XD

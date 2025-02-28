@@ -1,0 +1,19 @@
+my-cv-v3-junior/
+│
+├── src/
+│   ├── index.pug          # Fișierul PUG pentru structura HTML
+│   ├── style.scss         # Fișierul SCSS pentru stiluri
+│   └── _asset/            # Folder pentru resurse
+│       └── image/         # Folder pentru imagini
+│           ├── twitter-logo.svg
+│           └── linkedin-logo.jpg
+│
+├── dist/
+│   ├── index.html         # Fișierul HTML compilat din PUG
+│   ├── style.css          # Fișierul CSS compilat din SCSS
+│   └── assets/            # Copie a asset-urilor din src/
+│       └── image/         # Folder pentru imagini
+│           ├── twitter-logo.svg
+│           └── linkedin-logo.jpg
+│
+└── package.json           # Fișier de configurare pentru npm (opțional)
