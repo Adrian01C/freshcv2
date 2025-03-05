@@ -1,72 +1,30 @@
-.blue {
-  color: #0078FF;
-}
-
-.teal-blue {
-  color: #00CAFF;
-}
-
-.green {
-  color: #00DE51;
-}
-
-.orange {
-  color: #FF8F00;
-}
-
-.purple {
-  color: #5A51DE;
-}
-
-.pink {
-  color: #FF004F;
-}
-
-.red {
-  color: #E3111A;
-}
-
-.bronze {
-  color: #C67C3B;
-}
-
-.yellow {
-  color: #FFCB00;
-}
-
-.orchid {
-  color: #B959FF;
-}
-
-.raisin-black {
-  color: #212734;
-}
-
-.charcoal {
-  color: #31394C;
-}
-
-.paynes-gray {
-  color: #3D465E;
-}
-
-.grey-blue {
-  color: #47536C;
-}
-
-.black {
-  color: #000000;
-}
-
-.white {
-  color: #FFFFFF;
-}
+/* Culori */
+.blue { color: #0078FF; }
+.teal-blue { color: #00CAFF; }
+.green { color: #00DE51; }
+.orange { color: #FF8F00; }
+.purple { color: #5A51DE; }
+.pink { color: #FF004F; }
+.red { color: #E3111A; }
+.bronze { color: #C67C3B; }
+.yellow { color: #FFCB00; }
+.orchid { color: #B959FF; }
+.raisin-black { color: #212734; }
+.charcoal { color: #31394C; }
+.paynes-gray { color: #3D465E; }
+.grey-blue { color: #47536C; }
+.black { color: #000000; }
+.white { color: #FFFFFF; }
 
 /* Alte stiluri */
 body {
   font-family: Arial, sans-serif;
   background-color: #F7F7F7;
   color: #212734;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 header, footer {
@@ -84,6 +42,17 @@ header, footer {
 
 h1, h2 {
   color: white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .button-large {
@@ -94,53 +63,24 @@ h1, h2 {
   color: #FFFFFF;
   cursor: pointer;
 }
-
 .button-large:hover {
   background-color: #E3111A;
 }
 
-/* Stiluri de bază pentru întreaga pagină */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-/* Stiluri pentru header */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
-
-header h2 {
-  margin: 0;
-  font-size: 1.5em;
-}
-
-/* Stiluri pentru secțiuni */
 section {
   padding: 20px;
   margin: 20px 0;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 section h2, section h3 {
   margin-top: 0;
+  text-align: center;
 }
 
-/* Stiluri pentru logo-uri */
 .connect-logo {
   width: 300px;
   height: auto;
@@ -148,38 +88,41 @@ section h2, section h3 {
   margin-right: 8px;
 }
 
-/* Stiluri pentru link-uri */
 a {
   text-decoration: none;
   color: #007BFF;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
-/* Stiluri pentru iconițe de social media */
-.social-icon {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-  background-size: cover;
-  transition: filter 0.3s;
+/* Stiluri pentru sectiunea Let's Connect */
+#lets-connect {
+  text-align: center;
+  padding: 20px;
+  background-color: #0078FF;
+  border-radius: 5px;
 }
 
-.social-icons-list {
-  list-style: none;
-  padding
+#lets-connect ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
 
-  #skills {
-    position: relative;
-  }
-  
-  .skills-photo {
-    position: absolute;
-    right: 40;
-    top: 10;
-    max-width: 400px; /* Ajustează dimensiunea după preferințe */
-  }
-  
+#lets-connect li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+#lets-connect img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+#lets-connect img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
