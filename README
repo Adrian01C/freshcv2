@@ -1,0 +1,18 @@
+# freshcv2
+
+**This is my live CV**, created to connect more easily with employers. It provides links to my profiles on Indeed, Twitter, and LinkedIn to stay in touch.
+
+## Features
+
+- **Interactive CV**: Showcases my professional information in an engaging format.
+- **Redirect to social platforms**: Offers quick access to:
+  - **Indeed**: [My Indeed Page](#)
+  - **Twitter**: https://x.com/adrian_ciociu(#)
+  - **LinkedIn**: https://www.linkedin.com/in/virgil-adrian-ciociu-3a6122b4(#)
+- **Responsive design**: Perfectly adapts to any device, from desktops to smartphones.
+
+## How to Use
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/username/freshcv2.git
