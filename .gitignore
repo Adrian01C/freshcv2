@@ -1,0 +1,23 @@
+# Ignorăm fișierele și directoarele generate automat
+node_modules/
+dist/
+build/
+*.log
+.env
+
+# Ignorăm fișierele temporare sau specifice sistemului
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignorăm fișierele specifice editorului
+.vscode/
+.idea/
+*.suo
+*.swp
+*.bak
+
+# Nu excludem imaginile .png și .jpg!
+# Dacă există alte reguli de excludere care afectează locația imaginilor, folosim excepții:
+!fresh/src/_asset/image/*.png
+!fresh/src/_asset/image/*.jpg
